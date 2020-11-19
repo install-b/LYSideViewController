@@ -10,6 +10,8 @@
 
 @interface LYRootViewController : NSObject
 
-+ (UIViewController *)rootViewController;
++ (UIViewController *)OCRootViewController;
+
++ (UIViewController *)SwiftRootViewController;
 
 @end

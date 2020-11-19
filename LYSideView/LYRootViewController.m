@@ -16,13 +16,25 @@
 
 @implementation LYRootViewController
 
-+ (UIViewController *)rootViewController {
++ (UIViewController *)OCRootViewController {
     MainViewController * mainVc = [[MainViewController alloc] init];
     UIViewController * leftVc = [[LeftViewController alloc] init];
     UIViewController * rightVc = [[RightViewController alloc] init];
     
-//    SideViewController *rooVc = [[SideViewController alloc] initWithMainViewController:mainVc leftViewController:leftVc rightViewController:rightVc];
     LYSideViewViewController *rooVc = [[LYSideViewViewController alloc] initWithMainViewController:mainVc leftViewController:leftVc rightViewController:rightVc];
+    CGFloat offset = [UIScreen mainScreen].bounds.size.width - 80.0f;
+    rooVc.leftContentOffset = offset;
+    rooVc.rightContentOffset = offset;
+    rooVc.delegate = mainVc;
+    
+    return rooVc;
+}
++ (UIViewController *)SwiftRootViewController {
+    MainViewController * mainVc = [[MainViewController alloc] init];
+    UIViewController * leftVc = [[LeftViewController alloc] init];
+    UIViewController * rightVc = [[RightViewController alloc] init];
+    
+    SideViewController *rooVc = [[SideViewController alloc] initWithMainViewController:mainVc leftViewController:leftVc rightViewController:rightVc];
     CGFloat offset = [UIScreen mainScreen].bounds.size.width - 80.0f;
     rooVc.leftContentOffset = offset;
     rooVc.rightContentOffset = offset;
