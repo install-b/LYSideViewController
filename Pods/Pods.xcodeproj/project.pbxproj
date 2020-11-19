@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BEEFDD48E601D2FF975418B4396E1A /* SideViewController-Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA4DE4FA82E2E88C11D8262E3F4073 /* SideViewController-Speed.swift */; };
+		78647788A31209BEF4FCF631B6B90565 /* UIViewController-SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F3DF85C696A61CD44C9E71561F7C9 /* UIViewController-SideView.swift */; };
+		7D5FC97BD8BE5B0AD8CA8D1C2B25F795 /* Pods-LYSideView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E60FA60E5823597B590543F1D921E /* Pods-LYSideView-dummy.m */; };
+		83E308276E44238AFB2B485F31D018DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B6B58EB0AC54CE1243B1ED7A5567157 /* Pods-LYSideView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C81834C83594EC0AA1112A02D3713D /* Pods-LYSideView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DCF7DA775A750C46004AE644B684DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E1B2428AEB3E15AF0520DC9F13B60AA9 /* SideViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F97BFCA9FCAA4D62B6B7CCA21E6F23C /* SideViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB75554FF0FED496853FCF24B3B34C7A /* SideViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDC747B0C0A4DCBE25CBF8205716E9D /* SideViewController-dummy.m */; };
+		EF8302730266104BF6D94432EB86809C /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C541BE8F592AEFA2B44B54355C6839 /* SideViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC3004E8B4D863AE79C577B48D0696BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEED202A27C3756275DD1310EE06A2E;
+			remoteInfo = SideViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		081F3DF85C696A61CD44C9E71561F7C9 /* UIViewController-SideView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController-SideView.swift"; path = "SideViewController/UIViewController-SideView.swift"; sourceTree = "<group>"; };
+		0B083002B17C20010DC28DB12B2EAFE5 /* Pods_LYSideView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYSideView.framework; path = "Pods-LYSideView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC255B5E6AEC4730CA3F5973034992D /* Pods-LYSideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSideView.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52C541BE8F592AEFA2B44B54355C6839 /* SideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideViewController.swift; path = SideViewController/SideViewController.swift; sourceTree = "<group>"; };
+		58C81834C83594EC0AA1112A02D3713D /* Pods-LYSideView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYSideView-umbrella.h"; sourceTree = "<group>"; };
+		5A64EAD4FDCEFA9AC6F000168E47620B /* SideViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SideViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B74A39AA5A25987151F77474B56E14D /* SideViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideViewController.modulemap; sourceTree = "<group>"; };
+		5F7D128634B7DF5A387B43DAF95E0427 /* Pods-LYSideView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSideView-Info.plist"; sourceTree = "<group>"; };
+		613261A9795208E6C79C8DEB977C10AA /* Pods-LYSideView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYSideView-frameworks.sh"; sourceTree = "<group>"; };
+		69F32D56259525EFE9094E99E0F8909E /* SideViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideViewController-Info.plist"; sourceTree = "<group>"; };
+		6F97BFCA9FCAA4D62B6B7CCA21E6F23C /* SideViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideViewController-umbrella.h"; sourceTree = "<group>"; };
+		7237E394E5E8B3D43715796406F41651 /* SideViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideViewController.release.xcconfig; sourceTree = "<group>"; };
+		8307FEF680E6B4E1F063519EF5153DBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03D01B1E24BD6741070BE07708764A7 /* Pods-LYSideView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYSideView-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6A2D4413FD74F364B1F4AF526C2D7E6 /* Pods-LYSideView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYSideView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B824CF2617BBBF40139982147FCE9492 /* Pods-LYSideView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYSideView.modulemap"; sourceTree = "<group>"; };
+		C48E60FA60E5823597B590543F1D921E /* Pods-LYSideView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYSideView-dummy.m"; sourceTree = "<group>"; };
+		CE4414B451C75BFA3F55FAE1D094305C /* SideViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideViewController.framework; path = SideViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DDAC960386BDA4CD8D88503175E056 /* SideViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideViewController-prefix.pch"; sourceTree = "<group>"; };
+		DB4BFF382EC6C0F453FB7EF9A59D4DFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DCBA4DE4FA82E2E88C11D8262E3F4073 /* SideViewController-Speed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideViewController-Speed.swift"; path = "SideViewController/SideViewController-Speed.swift"; sourceTree = "<group>"; };
+		FA25CDC9EFF6423F0E25D6541CA52A04 /* Pods-LYSideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYSideView.debug.xcconfig"; sourceTree = "<group>"; };
+		FE53BEB6FB813B33B72609F90DC06970 /* SideViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideViewController.debug.xcconfig; sourceTree = "<group>"; };
+		FFDC747B0C0A4DCBE25CBF8205716E9D /* SideViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideViewController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006CEA027674DF5D394D0F499AA05EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E308276E44238AFB2B485F31D018DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F523ECB7997828A90190FCA88E0B9390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DCF7DA775A750C46004AE644B684DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075CDD473D31C2CB0A6FE1D55435B7CA /* Pods-LYSideView */ = {
+			isa = PBXGroup;
+			children = (
+				B824CF2617BBBF40139982147FCE9492 /* Pods-LYSideView.modulemap */,
+				B6A2D4413FD74F364B1F4AF526C2D7E6 /* Pods-LYSideView-acknowledgements.markdown */,
+				A03D01B1E24BD6741070BE07708764A7 /* Pods-LYSideView-acknowledgements.plist */,
+				C48E60FA60E5823597B590543F1D921E /* Pods-LYSideView-dummy.m */,
+				613261A9795208E6C79C8DEB977C10AA /* Pods-LYSideView-frameworks.sh */,
+				5F7D128634B7DF5A387B43DAF95E0427 /* Pods-LYSideView-Info.plist */,
+				58C81834C83594EC0AA1112A02D3713D /* Pods-LYSideView-umbrella.h */,
+				FA25CDC9EFF6423F0E25D6541CA52A04 /* Pods-LYSideView.debug.xcconfig */,
+				1FC255B5E6AEC4730CA3F5973034992D /* Pods-LYSideView.release.xcconfig */,
+			);
+			name = "Pods-LYSideView";
+			path = "Target Support Files/Pods-LYSideView";
+			sourceTree = "<group>";
+		};
+		26CF0D7E93F55F9A0A7AC436DB2DAEA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB4BFF382EC6C0F453FB7EF9A59D4DFC /* LICENSE */,
+				8307FEF680E6B4E1F063519EF5153DBB /* README.md */,
+				5A64EAD4FDCEFA9AC6F000168E47620B /* SideViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		373BED059AC22231DB181450D522EB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B083002B17C20010DC28DB12B2EAFE5 /* Pods_LYSideView.framework */,
+				CE4414B451C75BFA3F55FAE1D094305C /* SideViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6435F2B65B8AA7EBE015A20D47BE4A9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				075CDD473D31C2CB0A6FE1D55435B7CA /* Pods-LYSideView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BDB21B7C65DD514DE6E0AF14BD1F090 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A345F5F525D72C45EEBC6F8198EAED7A /* SideViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A345F5F525D72C45EEBC6F8198EAED7A /* SideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52C541BE8F592AEFA2B44B54355C6839 /* SideViewController.swift */,
+				DCBA4DE4FA82E2E88C11D8262E3F4073 /* SideViewController-Speed.swift */,
+				081F3DF85C696A61CD44C9E71561F7C9 /* UIViewController-SideView.swift */,
+				26CF0D7E93F55F9A0A7AC436DB2DAEA0 /* Pod */,
+				FAE914F0D47FD757A067BCC65786632F /* Support Files */,
+			);
+			name = SideViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6BDB21B7C65DD514DE6E0AF14BD1F090 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				373BED059AC22231DB181450D522EB24 /* Products */,
+				6435F2B65B8AA7EBE015A20D47BE4A9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE914F0D47FD757A067BCC65786632F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B74A39AA5A25987151F77474B56E14D /* SideViewController.modulemap */,
+				FFDC747B0C0A4DCBE25CBF8205716E9D /* SideViewController-dummy.m */,
+				69F32D56259525EFE9094E99E0F8909E /* SideViewController-Info.plist */,
+				D2DDAC960386BDA4CD8D88503175E056 /* SideViewController-prefix.pch */,
+				6F97BFCA9FCAA4D62B6B7CCA21E6F23C /* SideViewController-umbrella.h */,
+				FE53BEB6FB813B33B72609F90DC06970 /* SideViewController.debug.xcconfig */,
+				7237E394E5E8B3D43715796406F41651 /* SideViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/SideViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		360B5A33A23DBE33438208BD621C9A3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6B58EB0AC54CE1243B1ED7A5567157 /* Pods-LYSideView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAD1E42D45712448AFB1651A569C5CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B2428AEB3E15AF0520DC9F13B60AA9 /* SideViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AEED202A27C3756275DD1310EE06A2E /* SideViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F437136109D87B5612023DC059BEDEE4 /* Build configuration list for PBXNativeTarget "SideViewController" */;
+			buildPhases = (
+				8CAD1E42D45712448AFB1651A569C5CB /* Headers */,
+				DC810A84A47F5BE2E415CFB25B7FD4CE /* Sources */,
+				006CEA027674DF5D394D0F499AA05EFF /* Frameworks */,
+				9885DCBC03A650384AC32EC73563B0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideViewController;
+			productName = SideViewController;
+			productReference = CE4414B451C75BFA3F55FAE1D094305C /* SideViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA1FF564D7B24AE2B515DF70ADDE8BBA /* Pods-LYSideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7195F19BE29E758B2FBEC7762667A241 /* Build configuration list for PBXNativeTarget "Pods-LYSideView" */;
+			buildPhases = (
+				360B5A33A23DBE33438208BD621C9A3B /* Headers */,
+				B0D2CED2E9F583CC55C6529AF11B5456 /* Sources */,
+				F523ECB7997828A90190FCA88E0B9390 /* Frameworks */,
+				95295BA451A5B05917C93B0C46F57D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E410562B1C97644B10FE071A808E52FB /* PBXTargetDependency */,
+			);
+			name = "Pods-LYSideView";
+			productName = "Pods-LYSideView";
+			productReference = 0B083002B17C20010DC28DB12B2EAFE5 /* Pods_LYSideView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 373BED059AC22231DB181450D522EB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1FF564D7B24AE2B515DF70ADDE8BBA /* Pods-LYSideView */,
+				9AEED202A27C3756275DD1310EE06A2E /* SideViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95295BA451A5B05917C93B0C46F57D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9885DCBC03A650384AC32EC73563B0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D2CED2E9F583CC55C6529AF11B5456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FC97BD8BE5B0AD8CA8D1C2B25F795 /* Pods-LYSideView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC810A84A47F5BE2E415CFB25B7FD4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB75554FF0FED496853FCF24B3B34C7A /* SideViewController-dummy.m in Sources */,
+				42BEEFDD48E601D2FF975418B4396E1A /* SideViewController-Speed.swift in Sources */,
+				EF8302730266104BF6D94432EB86809C /* SideViewController.swift in Sources */,
+				78647788A31209BEF4FCF631B6B90565 /* UIViewController-SideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E410562B1C97644B10FE071A808E52FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideViewController;
+			target = 9AEED202A27C3756275DD1310EE06A2E /* SideViewController */;
+			targetProxy = DC3004E8B4D863AE79C577B48D0696BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E910773F6CBBE596D814DBC239F7AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA25CDC9EFF6423F0E25D6541CA52A04 /* Pods-LYSideView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSideView/Pods-LYSideView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSideView/Pods-LYSideView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E9C536DF6CC7A7467A4A03AEA86B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE53BEB6FB813B33B72609F90DC06970 /* SideViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideViewController/SideViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideViewController/SideViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideViewController/SideViewController.modulemap";
+				PRODUCT_MODULE_NAME = SideViewController;
+				PRODUCT_NAME = SideViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		799C2AB7BFD1CFB10575F4CC78AB6515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC255B5E6AEC4730CA3F5973034992D /* Pods-LYSideView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYSideView/Pods-LYSideView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYSideView/Pods-LYSideView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8D726C032439B68D5FF089CFAEA2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7237E394E5E8B3D43715796406F41651 /* SideViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideViewController/SideViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideViewController/SideViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideViewController/SideViewController.modulemap";
+				PRODUCT_MODULE_NAME = SideViewController;
+				PRODUCT_NAME = SideViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7195F19BE29E758B2FBEC7762667A241 /* Build configuration list for PBXNativeTarget "Pods-LYSideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E910773F6CBBE596D814DBC239F7AE8 /* Debug */,
+				799C2AB7BFD1CFB10575F4CC78AB6515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F437136109D87B5612023DC059BEDEE4 /* Build configuration list for PBXNativeTarget "SideViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9C536DF6CC7A7467A4A03AEA86B7FB /* Debug */,
+				C8D726C032439B68D5FF089CFAEA2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

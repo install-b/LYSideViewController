@@ -1,0 +1,6 @@
+framework module Pods_LYSideView {
+  umbrella header "Pods-LYSideView-umbrella.h"
+
+  export *
+  module * { export * }
+}

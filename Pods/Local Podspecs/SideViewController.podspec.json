@@ -1,0 +1,25 @@
+{
+  "name": "SideViewController",
+  "version": "0.0.1",
+  "summary": "A short description of SideViewController.",
+  "description": "Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "http://EXAMPLE/SideViewController",
+  "license": "MIT",
+  "authors": {
+    "shangenzhang": "645256685@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://github.com/install-b/SideViewController.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "SideViewController/*.swift",
+  "requires_arc": true,
+  "swift_versions": [
+    "4.2",
+    "5.0"
+  ],
+  "swift_version": "5.0"
+}

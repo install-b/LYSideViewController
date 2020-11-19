@@ -7,7 +7,7 @@
 //
 
 #import "LYSideViewViewController.h"
-
-@interface MainViewController : UITabBarController <LYSideViewViewControllerDelegate>
+#import <SideViewController-Swift.h>
+@interface MainViewController : UITabBarController <SideViewControllerDelegate, LYSideViewViewControllerDelegate>
 
 @end

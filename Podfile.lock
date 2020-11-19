@@ -1,0 +1,16 @@
+PODS:
+  - SideViewController (0.0.1)
+
+DEPENDENCIES:
+  - SideViewController (from `./`)
+
+EXTERNAL SOURCES:
+  SideViewController:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  SideViewController: 5c884f8353edab98768d71cf528cedd90344d7e9
+
+PODFILE CHECKSUM: f766814fd6d069f706550cc22d18001cd2acdf2e
+
+COCOAPODS: 1.9.1

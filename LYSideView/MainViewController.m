@@ -89,6 +89,24 @@
     [self.coverView removeFromSuperview];
 }
 
+#pragma mark - SideViewViewControllerDelegate
+
+- (void)sideViewDidDismissLeftView:(SideViewController *)sideVc :(UIViewController *)leftVc {
+    
+}
+
+- (void)sideViewDidDismissRightView:(SideViewController *)sideVc :(UIViewController *)rightVc {
+    
+}
+
+- (void)sideViewDidShowLeftView:(SideViewController *)sideVc :(UIViewController *)leftVc progress:(CGFloat)progress {
+    
+}
+
+- (void)sideViewDidShowRightView:(SideViewController *)sideVc :(UIViewController *)rightVc progress:(CGFloat)progress {
+    
+}
+
 #pragma mark - lazy load
 - (UIView *)coverView {
     if (!_coverView) {

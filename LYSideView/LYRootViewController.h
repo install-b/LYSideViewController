@@ -6,10 +6,10 @@
 //  Copyright © 2017年 Shangen Zhang. All rights reserved.
 //
 
-#import "LYSideViewViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LYRootViewController : LYSideViewViewController
+@interface LYRootViewController : NSObject
 
-+ (instancetype)rootViewController;
++ (UIViewController *)rootViewController;
 
 @end

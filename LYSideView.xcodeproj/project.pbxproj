@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18590BA325664C22008C9C88 /* UIViewController+LYSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE580221E19EA60014319F /* UIViewController+LYSideView.m */; };
+		18590BA525664C25008C9C88 /* LYSideViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE580321E19EA60014319F /* LYSideViewViewController.m */; };
+		A4E085CDA491FF72BDB0DE29 /* Pods_LYSideView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960C3689CC214FD0A87969BB /* Pods_LYSideView.framework */; };
 		A70B51E11E9B1D7F00FE2DC3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70B51E01E9B1D7F00FE2DC3 /* FirstViewController.m */; };
 		A70B51E41E9B1D8C00FE2DC3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70B51E31E9B1D8C00FE2DC3 /* SecondViewController.m */; };
 		A70B51E71E9B212500FE2DC3 /* SubTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70B51E61E9B212500FE2DC3 /* SubTabBarViewController.m */; };
@@ -21,11 +24,11 @@
 		A7B770781E99225C00930533 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B770771E99225C00930533 /* MainViewController.m */; };
 		A7B7707B1E99226D00930533 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B7707A1E99226D00930533 /* LeftViewController.m */; };
 		A7B7707E1E99227900930533 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B7707D1E99227900930533 /* RightViewController.m */; };
-		A7EE580621E19EA60014319F /* UIViewController+LYSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE580221E19EA60014319F /* UIViewController+LYSideView.m */; };
-		A7EE580721E19EA60014319F /* LYSideViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE580321E19EA60014319F /* LYSideViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B7AB354551EF717918E093 /* Pods-LYSideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSideView.debug.xcconfig"; path = "Target Support Files/Pods-LYSideView/Pods-LYSideView.debug.xcconfig"; sourceTree = "<group>"; };
+		960C3689CC214FD0A87969BB /* Pods_LYSideView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYSideView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70B51DF1E9B1D7F00FE2DC3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		A70B51E01E9B1D7F00FE2DC3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		A70B51E21E9B1D8C00FE2DC3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		A7EE580321E19EA60014319F /* LYSideViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSideViewViewController.m; sourceTree = "<group>"; };
 		A7EE580421E19EA60014319F /* UIViewController+LYSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LYSideView.h"; sourceTree = "<group>"; };
 		A7EE580521E19EA60014319F /* LYSideViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSideViewViewController.h; sourceTree = "<group>"; };
+		AF53B2272D833152AEAFD59C /* Pods-LYSideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSideView.release.xcconfig"; path = "Target Support Files/Pods-LYSideView/Pods-LYSideView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E085CDA491FF72BDB0DE29 /* Pods_LYSideView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54E1FCE50B191CAA5E07E9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B7AB354551EF717918E093 /* Pods-LYSideView.debug.xcconfig */,
+				AF53B2272D833152AEAFD59C /* Pods-LYSideView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A72FB5281E98BBFD00740BF5 = {
 			isa = PBXGroup;
 			children = (
 				A72FB5331E98BBFD00740BF5 /* LYSideView */,
 				A72FB5321E98BBFD00740BF5 /* Products */,
+				54E1FCE50B191CAA5E07E9CE /* Pods */,
+				E0BD12000C2C196DC9AE5B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +153,14 @@
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
 		};
+		E0BD12000C2C196DC9AE5B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960C3689CC214FD0A87969BB /* Pods_LYSideView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A72FB5481E98BBFD00740BF5 /* Build configuration list for PBXNativeTarget "LYSideView" */;
 			buildPhases = (
+				FD255FA46B9167455C30DE69 /* [CP] Check Pods Manifest.lock */,
 				A72FB52D1E98BBFD00740BF5 /* Sources */,
 				A72FB52E1E98BBFD00740BF5 /* Frameworks */,
 				A72FB52F1E98BBFD00740BF5 /* Resources */,
+				11F4BA81D095C0604F473A72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +204,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -204,6 +231,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11F4BA81D095C0604F473A72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYSideView/Pods-LYSideView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideViewController/SideViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYSideView/Pods-LYSideView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD255FA46B9167455C30DE69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSideView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A72FB52D1E98BBFD00740BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,11 +284,11 @@
 				A7B7707B1E99226D00930533 /* LeftViewController.m in Sources */,
 				A72FB5391E98BBFD00740BF5 /* AppDelegate.m in Sources */,
 				A70B51E71E9B212500FE2DC3 /* SubTabBarViewController.m in Sources */,
-				A7EE580621E19EA60014319F /* UIViewController+LYSideView.m in Sources */,
+				18590BA325664C22008C9C88 /* UIViewController+LYSideView.m in Sources */,
 				A70B51EA1E9B2CF600FE2DC3 /* LYRootViewController.m in Sources */,
 				A7B7707E1E99227900930533 /* RightViewController.m in Sources */,
 				A7B770781E99225C00930533 /* MainViewController.m in Sources */,
-				A7EE580721E19EA60014319F /* LYSideViewViewController.m in Sources */,
+				18590BA525664C25008C9C88 /* LYSideViewViewController.m in Sources */,
 				A70B51E11E9B1D7F00FE2DC3 /* FirstViewController.m in Sources */,
 				A70B51E41E9B1D8C00FE2DC3 /* SecondViewController.m in Sources */,
 				A72FB5361E98BBFD00740BF5 /* main.m in Sources */,
@@ -341,11 +411,12 @@
 		};
 		A72FB5491E98BBFD00740BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B7AB354551EF717918E093 /* Pods-LYSideView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ22KTPCG8;
 				INFOPLIST_FILE = LYSideView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhly.LYSideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,11 +425,12 @@
 		};
 		A72FB54A1E98BBFD00740BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF53B2272D833152AEAFD59C /* Pods-LYSideView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ22KTPCG8;
 				INFOPLIST_FILE = LYSideView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhly.LYSideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
